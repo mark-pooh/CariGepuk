@@ -63,8 +63,8 @@
             </form>
         </div>
         <div class="button-container">
-            <button class="btn btn-primary" type="button">Gepuk Search</button>
-            <button class="btn btn-secondary" type="button">I'm Feeling Lucky</button>
+            <button class="btn btn-primary rounded-pill" type="button">Gepuk Search</button>
+            <button class="btn btn-secondary rounded-pill" type="button">I'm Feeling Lucky</button>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
@@ -87,13 +87,13 @@
                 let buttonContainer = document.createElement('div');
                 buttonContainer.className = 'suggestion-buttons';
                 let searchButton = document.createElement('button');
-                searchButton.className = 'btn btn-outline-secondary';
+                searchButton.className = 'btn btn-outline-secondary rounded-pill';
                 searchButton.type = 'button';
                 searchButton.textContent = 'Gepuk Search';
                 buttonContainer.appendChild(searchButton);
 
                 let luckyButton = document.createElement('button');
-                luckyButton.className = 'btn btn-outline-secondary';
+                luckyButton.className = 'btn btn-outline-secondary rounded-pill';
                 luckyButton.type = 'button';
                 luckyButton.textContent = "I'm Feeling Lucky";
                 buttonContainer.appendChild(luckyButton);
