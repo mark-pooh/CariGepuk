@@ -85,15 +85,15 @@
                 });
                 // Add the buttons inside the suggestion box
                 let buttonContainer = document.createElement('div');
-                buttonContainer.className = 'suggestion-buttons d-none d-md-block';
+                buttonContainer.className = 'suggestion-buttons';
                 let searchButton = document.createElement('button');
-                searchButton.className = 'btn btn-outline-secondary rounded-pill';
+                searchButton.className = 'btn btn-outline-secondary rounded-pill d-none d-md-block';
                 searchButton.type = 'button';
                 searchButton.textContent = 'Gepuk Search';
                 buttonContainer.appendChild(searchButton);
 
                 let luckyButton = document.createElement('button');
-                luckyButton.className = 'btn btn-outline-secondary rounded-pill';
+                luckyButton.className = 'btn btn-outline-secondary rounded-pill d-none d-md-block';
                 luckyButton.type = 'button';
                 luckyButton.textContent = "I'm Feeling Lucky";
                 buttonContainer.appendChild(luckyButton);
